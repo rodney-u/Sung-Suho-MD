@@ -22,10 +22,10 @@ module.exports = {
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys", // Baileys version
 
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "263714757857", // Owner WhatsApp number
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "254745314237", // Owner WhatsApp number
   OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ᴍᴀʟᴠɪɴ ᴋɪɴɢ", // Owner name
-  DEV: process.env.DEV || "263714757857", // Developer contact number
-  DEVELOPER_NUMBER: '263714757857@s.whatsapp.net', // Developer WhatsApp ID
+  DEV: process.env.DEV || "254745314237", // Developer contact number
+  DEVELOPER_NUMBER: '254745314237@s.whatsapp.net', // Developer WhatsApp ID
 
   // ===== AUTO-RESPONSE SETTINGS =====
   AUTO_REPLY: process.env.AUTO_REPLY || "false", // Enable auto-reply
@@ -73,7 +73,7 @@ module.exports = {
   AUTO_BIO: process.env.AUTO_BIO || "false", // Automatically update bio
   WELCOME: process.env.WELCOME || "false", // Enable welcome messages
   GOODBYE: process.env.GOODBYE || "false", // Enable goodbye messages
-  ADMIN_ACTION: process.env.ADMIN_ACTION || "false", // Show admin activity notifications
+  ADMIN_ACTION: process.env.ADMIN_ACTION || "true", // Show admin activity notifications
   
 version: process.env.version || "1.0.0",
 };
